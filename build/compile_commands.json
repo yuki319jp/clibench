@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/main.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/main.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/main.cpp",
+  "output": "CMakeFiles/clibench.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/vulkan_context.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/vulkan_context.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/vulkan_context.cpp",
+  "output": "CMakeFiles/clibench.dir/src/vulkan_context.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/cpu_benchmark.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/cpu_benchmark.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/cpu_benchmark.cpp",
+  "output": "CMakeFiles/clibench.dir/src/cpu_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/compute_benchmark.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/compute_benchmark.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/compute_benchmark.cpp",
+  "output": "CMakeFiles/clibench.dir/src/compute_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/memory_benchmark.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/memory_benchmark.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/memory_benchmark.cpp",
+  "output": "CMakeFiles/clibench.dir/src/memory_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/graphics_benchmark.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/graphics_benchmark.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/graphics_benchmark.cpp",
+  "output": "CMakeFiles/clibench.dir/src/graphics_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/stress_benchmark.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/stress_benchmark.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/stress_benchmark.cpp",
+  "output": "CMakeFiles/clibench.dir/src/stress_benchmark.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -o CMakeFiles/clibench.dir/src/result_reporter.cpp.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/result_reporter.cpp",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/result_reporter.cpp",
+  "output": "CMakeFiles/clibench.dir/src/result_reporter.cpp.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -x objective-c++ -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -fobjc-arc -o CMakeFiles/clibench.dir/src/metal_context.mm.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/metal_context.mm",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/metal_context.mm",
+  "output": "CMakeFiles/clibench.dir/src/metal_context.mm.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -x objective-c++ -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -fobjc-arc -o CMakeFiles/clibench.dir/src/metal_compute_benchmark.mm.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/metal_compute_benchmark.mm",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/metal_compute_benchmark.mm",
+  "output": "CMakeFiles/clibench.dir/src/metal_compute_benchmark.mm.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -x objective-c++ -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -fobjc-arc -o CMakeFiles/clibench.dir/src/metal_memory_benchmark.mm.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/metal_memory_benchmark.mm",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/metal_memory_benchmark.mm",
+  "output": "CMakeFiles/clibench.dir/src/metal_memory_benchmark.mm.o"
+},
+{
+  "directory": "/Users/yuki110319/Documents/develop/vulkanbench/build",
+  "command": "/usr/bin/c++ -DCLIBENCH_HAS_METAL=1 -DCLIBENCH_VERSION=\\\"1.0.0\\\" -DVK_USE_PLATFORM_MACOS_MVK -I/Users/yuki110319/Documents/develop/vulkanbench/src -I/Users/yuki110319/Documents/develop/vulkanbench/build/shaders -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -x objective-c++ -O3 -DNDEBUG -std=gnu++17 -arch x86_64 -fobjc-arc -o CMakeFiles/clibench.dir/src/metal_graphics_benchmark.mm.o -c /Users/yuki110319/Documents/develop/vulkanbench/src/metal_graphics_benchmark.mm",
+  "file": "/Users/yuki110319/Documents/develop/vulkanbench/src/metal_graphics_benchmark.mm",
+  "output": "CMakeFiles/clibench.dir/src/metal_graphics_benchmark.mm.o"
+}
+]

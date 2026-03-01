@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+2c5e35dc85d04b788996d64e39b9ba5d CMakeFiles/compile_shaders
+4d7adc8333301cebfdbe0cdc40ad0c3f shaders/compute.comp.spv
+b08d6ff34627144c38de1b13528ad5fa shaders/compute_comp.h
+f7be3e7f109f8122100ddaac607b465b shaders/texture_fill.frag.spv
+e98ea814f100698d6e6234d20d16715c shaders/texture_fill_frag.h
+3b900a25a8b92726e8d620531864bdc9 shaders/triangle.frag.spv
+34fc04ffc438cf21333e9b45f5ad15ef shaders/triangle.vert.spv
+e3715505494c74af2af31ae5484a491c shaders/triangle_frag.h
+e6cac96bb150a402ed8b47456d2ee429 shaders/triangle_vert.h

@@ -1,0 +1,29 @@
+#version 450
+
+layout(local_size_x = 256) in;
+
+layout(set = 0, binding = 0) buffer DataBuffer {
+    vec4 data[];
+};
+
+layout(push_constant) uniform PushConstants {
+    uint iterations;
+};
+
+void main() {
+    uint idx = gl_GlobalInvocationID.x;
+    vec4 a = data[idx];
+    vec4 b = vec4(1.0001, 0.9999, 1.0001, 0.9999);
+    vec4 c = vec4(0.5, 0.5, 0.5, 0.5);
+
+    // FMA-heavy loop for GFLOPS measurement
+    // Each iteration: 4 components * 2 ops (multiply + add) = 8 FLOPs
+    for (uint i = 0; i < iterations; ++i) {
+        a = fma(a, b, c);
+        a = fma(a, b, c);
+        a = fma(a, b, c);
+        a = fma(a, b, c);
+    }
+
+    data[idx] = a;
+}

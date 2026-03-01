@@ -1,0 +1,40 @@
+{
+  "tool": "VulkanBench",
+  "version": "1.0.0",
+  "timestamp": "2026-02-28T22:52:47",
+  "mode": "Quick",
+  "gpu": {
+    "name": "Apple M2",
+    "type": "Integrated GPU",
+    "api_version": "1.2.323",
+    "driver_version": "0.2.2208",
+    "vram_mb": 16384
+  },
+  "score": {
+    "compute": 899.25,
+    "memory": 4278.51,
+    "graphics": 0.00,
+    "total": 5177.76,
+    "tier": "C+  (Above Average)"
+  },
+  "results": [
+    {
+      "name": "Compute (GFLOPS)",
+      "value": 415.5951,
+      "unit": "GFLOPS",
+      "description": "FMA compute throughput (Quick mode)"
+    },
+    {
+      "name": "Host -> Device",
+      "value": 33.7952,
+      "unit": "GB/s",
+      "description": "Host to device transfer (64 MB, Quick mode)"
+    },
+    {
+      "name": "Device -> Host",
+      "value": 34.7689,
+      "unit": "GB/s",
+      "description": "Device to host transfer (64 MB, Quick mode)"
+    }
+  ]
+}
