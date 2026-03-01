@@ -4,6 +4,11 @@
 
 ---
 
+We assume no responsibility whatsoever for any issues arising from this software.
+Use it entirely at your own risk.
+
+---
+
 This repository previously held three separate README files. They are now combined into this single `README.md` containing three language sections: English, 日本語, and やさしい日本語. Use the links above to jump to your preferred language.
 
 目次 / Table of Contents
